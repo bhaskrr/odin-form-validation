@@ -13,7 +13,6 @@ body{
 
 form{
     line-height: 30px;
-    
 }
 
 form > div{
@@ -24,10 +23,9 @@ form > div{
 }
 
 .form-input{
-    /* width: 100%; */
-    border: 1px solid;
-    font-size: 15px;
     outline: none;
+    font-size: 15px;
+    border: 1px solid;
 }
 
 #email:valid{
@@ -35,7 +33,28 @@ form > div{
 }
 
 select{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid;
     text-align: center;
+}
+
+button{
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+button:disabled{
+    
+    
+    /* color: black; */
+    opacity: 0.3;
+    background-color: black;
+
 }
 
 .red-border{
