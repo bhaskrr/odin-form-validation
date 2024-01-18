@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin | Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="email-container">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-input" required>
+            </div>
+            <div class="country-container">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="" selected>--select a country--</option>
+                    <option value="india">India</option>
+                </select>
+            </div>
+            <div class="zip-container">
+                <label for="zip">Zipcode</label>
+                <input type="text" name="zipcode" id="zip" class="form-input" required>
+            </div>
+            <div class="password-container">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-input" required>
+            </div>
+            <div class="confirm-password-container">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirmed password" id="confirm-password" class="form-input" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

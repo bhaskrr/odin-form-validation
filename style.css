@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input{
+    border: 1px solid;
+    outline: none;
+}
+
+.red-border{
+    border: 2px solid red;
+}
+
+.green-border{
+    border: 2px solid green;
+}
